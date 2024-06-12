@@ -3,6 +3,12 @@ INDEX
 <button type="button"
 onclick="document.getElementById('demo').innerHTML = count++">
 Click me to display Count.</button>
+<br>
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = decodeURI(document.getElementById('text').value)">
+Click me to Decode.</button>
+
+<input id=text type="text" />
 
 <p id="demo"></p>
 
